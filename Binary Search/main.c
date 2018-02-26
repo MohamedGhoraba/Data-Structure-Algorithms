@@ -16,7 +16,14 @@ void Binary_Search(int arr[], int size, int num){
             found = 1;
         }
     }
+	if (found)
+	{
     printf("Number is %d and Position is %d",arr[mid], mid);
+	}
+	else
+	{
+	printf("Number not found");
+	}
 }
 
 int main()
